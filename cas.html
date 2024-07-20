@@ -17,27 +17,41 @@
     
 </head>
 <body>
+    
     <div class="container cas">
         <div class="interface">
             <h2>Create A Sim</h1>
             <h3>Gender</h2>
             <div class="gender">
-                <div class="female option-hover"><img src="./imgs/female.webp" alt=""></div>
-                <div class="male option-hover"><img src="./imgs/male.webp" alt=""></div>
+                <div class="female option-hover" id="female"><img src="./imgs/female.webp" alt=""></div>
+                <div class="male option-hover" id="male"><img src="./imgs/male.webp" alt=""></div>
             </div>
             
             <h3>Randomize Sim</h2>
             <div class="random option-hover">?</div>
-            <button id="next" class="option-hover">Customize</button>
+            <button id="next" class="interface-button">Customize</button>
+            <a href="./index.html"><button id="return" class="interface-button">Return</button></a>
         </div>
-        <div class="sim">
-            <div class="head">
+        <div class="sim" id="sim">
+            <div class="top">
                 <p>     
-                    OI
+                    SIM
                 </p>
+            </div>
+            <div class="bottom">
+                <div class="arm">
+                    <p></p>
+                </div>
+                <div class="torso">
+                    <p></p>
+                </div>
+                
+                <div class="arm">
+                    <p></p>
+                </div>
             </div>
         </div>
     </div>
-    
+    <script src="./main.js"></script>
 </body>
 </html>
