@@ -1,0 +1,129 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #99BBEE;
+
+}
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.index {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.index h1{
+    margin-bottom: 10px;
+}
+#plumbob {
+    width: 15px;
+    
+}
+.index button {
+    background-color: #0A6F2F;
+    color:white;
+    padding: 10px;
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+}
+.index button:hover{
+    background-color: #64B668;
+    cursor: pointer;
+}
+
+/* create a sim page */
+.container.cas{
+    background-color: #0A6F2F;
+    text-align: center;
+    /* display: flex; */
+    justify-content: space-around;
+}
+.interface
+{
+    box-sizing: border-box;
+    background-color: oldlace;
+    border-radius: 20px;
+    border: 8px solid #264B87;
+    width: 280px;
+    height: 80vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 180px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.interface h2, h3 {
+    margin-top: 10px;
+}
+.interface button {
+    width: 200px;
+    margin: auto;
+}
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gender img {
+    width: 80%;
+}
+.female, .male {
+    background-color: #efefef;
+    margin: 4px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*  */
+.random {
+    background-color: #efefef;
+    margin: 10px auto;
+    width: 240px;
+    height: 100px;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+    
+}
+
+#next{
+    width: 248px;
+    height: 35px;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#6495ED	, #F2F7FF);
+    color: #142a4d;
+    font-weight: bold;
+}
+#next:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.option-hover:hover{
+    background-color: #99FF99;
+    border: 3px solid #264B87;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.head{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
